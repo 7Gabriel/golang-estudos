@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:12.5
 
 RUN apt-get update -y
 RUN apt-get upgrade -y
